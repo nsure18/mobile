@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="imgs/email.png"/>
+  <link rel="stylesheet" href="css/formstyle.css">
+  <title>Contact Form</title>
+</head>
+<body>
+
+ <form
+ action="https://formspree.io/f/xzbovgkv"
+ method="POST"
+>
+  <fieldset>
+    <legend>Sample Form</legend>
+    <label for="name">Your Name</label>
+    <input type="text" name="name" required placeholder="Enter Your Name" id="name">
+
+    <label for="email">Your Email</label>
+    <input type="email" name="email" id="email">
+
+    <label for="age">Your Age</label>
+    <input type="number" name="age" min="0" id="age">
+
+    <label for="hometown">Your Hometown</label>
+    <input type="text" name="hometown" maxlength="100" id="hometown">
+
+    <label for="number">Your Phone Number</label>
+    <input type="tel" name="number" id="number">
+    <div><span>Format: 123-456-7890</span></div>
+
+
+    <label for="message">Leave A Message</label>
+ 
+    <textarea name="message" id="message"></textarea>
+
+    <input type="checkbox" name="remembered" id="remembered"> 
+    <label for="remembered">Remember me</label>
+     
+    <input type="submit" name="submit" value="Get in touch!">
+  </fieldset>
+ </form>
+</body>
+</html>
