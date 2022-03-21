@@ -109,9 +109,9 @@ img:hover {
 }
 
 footer {
-    background-color: rgb(204, 223, 241);
+    background-color: rgb(216, 203, 245);
     height: 50px;
-    width: fit-content;
+    width: 100%;
     margin: 15px 5px 10px 5px;
     text-align: center;
 }
