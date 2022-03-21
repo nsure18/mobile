@@ -10,11 +10,15 @@ p {
 }
 
 nav{
-    background-color: rgb(204, 223, 241);
+    background-color: rgb(216, 203, 245);
     min-height: 50px;
-    min-width: 100%;
+    min-width: fit-content;
     text-align: center;
     box-sizing: border-box;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5%;
 }
 
 nav > ul {
@@ -83,6 +87,9 @@ img {
     padding: 2px;
     margin: 16px 4px 6px 4px;
     border-radius: 1%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 img:nth-of-type(2n) {
@@ -104,7 +111,7 @@ img:hover {
 footer {
     background-color: rgb(204, 223, 241);
     height: 50px;
-    width: 100%;
+    width: fit-content;
     margin: 15px 5px 10px 5px;
     text-align: center;
 }
@@ -128,7 +135,7 @@ li.active a {
 
 .memories {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
 }
 
 .boba {
@@ -156,5 +163,5 @@ li.active a {
 
 @keyframes welcome {
     from {width:25px;opacity: 0;}
-    to {width:475px;opacity: 1;}
+    to {width:350px;opacity: 1;}
 }
