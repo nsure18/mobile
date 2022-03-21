@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="imgs/email.png"/>
   <link rel="stylesheet" href="css/formstyle.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Playfair+Display&display=swap" rel="stylesheet">
   <title>Contact Form</title>
 </head>
 <body>
@@ -21,12 +24,18 @@
     <label for="email">Your Email</label>
     <input type="email" name="email" id="email">
 
-    <label for="age">Your Age</label>
-    <input type="number" name="age" min="0" id="age">
+    <label for="favorite food">Your Favorite Food</label>
+    <input type="text" name="favorite food" id="favorite food">
 
-    <label for="hometown">Your Hometown</label>
-    <input type="text" name="hometown" maxlength="100" id="hometown">
+    <p>How  would you rate your cooking skills?</p>
+    <input class="b" type="radio" name="exp" id="beginner" value="yes">
+    <label for="beginner">Beginner</label>
+    <input class="i" type="radio" name="exp" id="intermediate" value="yes">
+    <label for="intermediate">Intermediate</label>
+    <input class="a" type="radio" name="exp" id="advanced" value="yes">
+    <label for="advanced">Advanced</label>
 
+    <br>
     <label for="number">Your Phone Number</label>
     <input type="tel" name="number" id="number">
     <div><span>Format: 123-456-7890</span></div>
@@ -36,6 +45,7 @@
  
     <textarea name="message" id="message"></textarea>
 
+    <br> 
     <input type="checkbox" name="remembered" id="remembered"> 
     <label for="remembered">Remember me</label>
      

@@ -1,6 +1,8 @@
 body {
     margin: 10px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    background-image: url(../images/gbhouse.png);
 }
 
 p {
@@ -41,6 +43,7 @@ nav li a:hover {
 
 
 h1 {
+    font-family: 'Playfair Display', serif;
     font-size: 23px;
     font-weight: bold;
     margin: 20px 10px 10px 10px;
@@ -112,4 +115,3 @@ li.active a {
     font-style: normal;
     font-size: medium;
 }
-

@@ -62,7 +62,11 @@ input[type=submit]:hover {
   opacity: 0.8;
 }
 
-
+#beginner.b, #intermediate.i, #advanced.a {  
+  display: inline-block;
+  text-align: left;
+  width: 10%;
+}
 
 
 /* Change styles for span and cancel button on extra small screens */
