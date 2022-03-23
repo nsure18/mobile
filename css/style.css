@@ -177,3 +177,14 @@ main {
 .btm {
     padding-top: 10px;
 }
+
+.memories img {
+    animation-name: blurry;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+
+@keyframes blurry {
+    from {filter: blur(2px);width: 400px;}
+    to {filter: blur(0px);width: 200px;}
+}
