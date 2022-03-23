@@ -188,3 +188,9 @@ main {
     from {filter: blur(2px);width: 400px;}
     to {filter: blur(0px);width: 200px;}
 }
+
+@media screen and (prefers-reduced-motion: reduce) {
+    #mainpic, #blurry {
+        animation-duration: initial;
+    }
+}
