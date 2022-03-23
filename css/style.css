@@ -174,10 +174,6 @@ main {
     padding: 20px 30px;
 }
 
-.btm {
-    padding-top: 10px;
-}
-
 .memories img {
     animation-name: blurry;
     animation-duration: 3s;
@@ -193,4 +189,8 @@ main {
     #mainpic, #blurry {
         animation-duration: initial;
     }
+}
+
+#mpara {
+    margin-bottom: 600px;
 }
